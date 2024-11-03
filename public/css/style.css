@@ -1,0 +1,103 @@
+a:hover{                         /* the links will get colored underline when the cursor is on it*/
+    color:#355E3B;
+    text-decoration: underline;
+    text-decoration-color:#355E3B ; 
+}
+
+a{
+    color: seagreen;
+   text-decoration: none; /* setting the color of the things in anchor tag*/
+}
+
+.ordernowbtn{ /* designing the order now button */
+border: none;
+background-color: #76b9af;
+color: white;
+padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.ordernowbtn:hover{ /* setting what happend when the user puts cursor on order now button*/
+    border: 2px solid #76b9af;
+    background-color: white;
+    color:#76b9af ;
+    text-decoration: none;
+}
+
+
+.relative {
+    position: relative;
+  }
+
+  .bgcolor{
+    background-color: #76b9af; /*  setting the bg color*/
+  }
+
+  .whiteunderline{ 
+    border-bottom: 2px solid white;
+    height:40%;
+    width: 60%;
+  }
+
+  .card { /* setting up the card to display products*/
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 100%;
+    transition-duration: 0.4s;
+  }
+
+  .addtocart{ /* designing the add to cart button */
+    background-color: #76b9af;
+    border:none ;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin-left: 38px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    
+  }
+
+  .addtocart:hover{ /* changing of color when the cursor is on add to cart button*/
+    background-color: seagreen;
+    color: white;
+    text-decoration: none;
+  }
+
+  .card:hover { /* zooming in the card and changing the border color when the cursor in on card*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border: 2px solid #76b9af;
+    transform: scale(1.08)
+  
+  }
+
+.menunav{ /* designing the menu navigation bar*/
+  background-color: #76b9af;
+  color: white;
+  margin-right: 170px;
+  margin-left: 170px;
+  align-content: center;
+}
+
+.input-box input{
+  width: 88%;
+  border: 1px solid blue;
+  margin-top: 35px;
+  border-radius: 5px;
+  margin-left: 80px;
+  height: 90px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.cashborder{
+  border:1px solid greenyellow;
+  width: 15%;
+}
+
+
+  
